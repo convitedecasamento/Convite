@@ -78,7 +78,7 @@ Design and Developed by: soldafria.net
 
 	/*General*/
 	h1 { font-size: 44px; font-style: normal; line-height: normal; }
-	h2 { font-size: 32px; font-style: normal; line-height: normal; }
+	h2 { font-size: 32px; font-style: normal; /*line-height: normal;*/ }
 	h3 { font-size: 110px; font-style: normal; line-height: 80px; }
 	h4 { font-size: 20px; font-style: normal; line-height: normal; }
 	.page-section-ptb { padding: 50px 0; }
@@ -303,7 +303,7 @@ Design and Developed by: soldafria.net
 
 	/*General*/
 	h1 { font-size: 38px; font-style: normal; line-height: normal; }
-	h2 { font-size: 28px; font-style: normal; line-height: normal; }
+	h2 { font-size: 28px; font-style: normal; /*line-height: normal;*/ }
 	h3 { font-size: 110px; font-style: normal; line-height: 90px; }
 	h4 { font-size: 18px; font-style: normal; line-height: normal; }
 

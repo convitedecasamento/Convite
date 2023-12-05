@@ -77,8 +77,10 @@ Design and Developed by: soldafria.net
 /***************************
 		 General
 ***************************/
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+A&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
 @font-face {
 	font-family: 'Berllina';
 	src: url(font/Berllina.ttf);
@@ -92,14 +94,14 @@ Design and Developed by: soldafria.net
 	src: url(font/AnandaBlackPersonalUseRegular-rg9Rx.ttf);
   }
 
-body { font-family: 'Nunito', sans-serif;font-weight: normal; font-style: normal; font-size: 18px; line-height: 24px; color: #000000; background-image: url(img/background-01@2x.png),url(img/.png),url(img/.png),url(img/.png);background-position: center,center,top,center;background-repeat: no-repeat, no-repeat;background-size: 100vh 107vh,113vh 118vh,122vh,100%;}
+body { font-family: 'Nunito', sans-serif;font-weight: normal; font-style: normal; font-size: 18px; line-height: 24px; color: #000000; background-image: url(img/background-01@2x.png),url(img/.png),url(img/.png),url(img/.png);background-position: center,center,top,center;background-repeat: no-repeat, no-repeat;background-size: 125vh;}
 a, .btn { -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; color: #353535; }
 a:focus { text-decoration: none !important; }
 a:focus, a:hover { color: #FFB540; text-decoration: none !important; }
 a, button, input { outline: medium none !important; color: #586d7f; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 h1 { font-size: 54px; font-style: normal; font-weight: 700; line-height: 54px; }
-h2 { font-size: 40px; font-style: normal; font-weight: 700; line-height: 40px; font-family: 'PT Serif', sans-serif; font-weight: 700; color: #292929; margin-top: 0px; margin-bottom: 8px;transform: scale(0.94);animation: scale 5s forwards cubic-bezier(0.5, 1, 0.89, 1); }
+h2 { font-size: 30px; font-style: normal; font-weight: 700; line-height: 40px; font-family: 'PT Serif', sans-serif; font-weight: 700; color: #b4c8ea; margin-top: 0px; margin-bottom: 0px;transform: scale(0.94);animation: scale 5s forwards cubic-bezier(0.5, 1, 0.89, 1); }
 h3 { font-size: 110px; font-style: normal; font-weight: 100;line-height: 90px; font-family: 'Berllina', sans-serif; font-weight: normal; background-image: linear-gradient(to right,#384d85 0,#3e96d1 22%, 	#6c7ee2 45%,	#4f64db 50%,	#597bc5 55%,	#5c9ae2 78%,	#639ece 100%	);  color:transparent; -webkit-background-clip:text; margin-top: 0px; margin-bottom: 0px;text-shadow: 3px 3px 5px rgb(119 106 44 / 28%);transform: scale(0.94);animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);}
 h4 { font-size: 24px; font-style: normal; font-weight: 600; line-height: 28px; }
 h5 { font-size: 18px; font-style: normal; font-weight: 700; line-height: 30px; }
@@ -117,8 +119,11 @@ p { font-family: 'Dance', sans-serif;}
 html{ scroll-behavior: smooth!important; }
 .typo-01 {
 	text-align: center;
-    color: #212529;
+    color: #0c0c0f;
     font-weight: 700;
+	border-radius: 126px;
+    background-color: #ffffff17;
+	font-family: 'Hedvig Letters Serif', serif;
 }
 .center-typo{
 	text-align: center;
@@ -142,7 +147,11 @@ blockquote:after { content: ""; }
 blockquote cite { font-size: 14px; margin-top: 15px; display: block; font-weight: 600; }
 .text-CeR{font-family: 'PT Serif' ,sans-serif; color: #292929; font-size: 20px;}
 .text-Black{font-size: 33px; line-height: 30px; font-family: 'Dance';}
-.text-local{ font-family: 'PT serif', sans-serif; font-size: 24px;color:#292929; text-transform: uppercase;}
+.text-local{ font-family: 'Noto Sans Linear A', sans-serif; font-size: 20px;color:#292929; text-transform: uppercase;margin-top: 15px;}
+.text-date{display: flex;justify-content: center;}
+.text-date p {font-size: 25px;color: #92a8d1;}
+.text-date span {color: #92a8d1; font-size: 50px;margin-right: 10px;}
+.family {font-size: 20px;color: #4a6892;text-align: -webkit-center;}
 
 blockquote.default { background: #FFB540; padding: 30px; }
 blockquote.default:before { left: 20px; top: 60px; }
