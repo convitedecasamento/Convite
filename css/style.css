@@ -335,6 +335,18 @@ textarea { height: auto!important; }
 ***************************/
 .buttom-sub{font-size: 45px; font-weight: 100!important; padding: 25px 60px!important;}
 .button { background: #6986f4; padding: 10px 30px; color: #fff; border: 2px solid #00ff62; text-transform: uppercase; font-weight: 700; display: inline-block; border-radius: 30px; text-align: center; cursor: pointer; transition: 0.5s;}
+.button2 {    background: #6986f4;
+    padding: 6px 6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 13px;
+    transition: 0.5s;}
 .button:hover { background: #fc4343; color: #ffffff; border-color: #fc4343; }
 .button.black { background: #353535; color: #ffffff; border: 2px solid #353535; }
 .button.black:hover, .button.black.active { background: #FFB540; color: #ffffff; border-color: #FFB540; }
