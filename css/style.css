@@ -96,10 +96,10 @@ body { font-family: 'Nunito', sans-serif;font-weight: normal; font-style: normal
 a, .btn { -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; color: #353535; }
 a:focus { text-decoration: none !important; }
 a:focus, a:hover { color: #FFB540; text-decoration: none !important; }
-a, button, input { outline: medium none !important; color: #FFB540; }
+a, button, input { outline: medium none !important; color: #586d7f; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 h1 { font-size: 54px; font-style: normal; font-weight: 700; line-height: 54px; }
-h2 { font-size: 40px; font-style: normal; font-weight: 700; line-height: 40px; font-family: 'PT Serif', sans-serif; font-weight: 700; color: #080808; margin-top: 0px; margin-bottom: 8px;transform: scale(0.94);animation: scale 5s forwards cubic-bezier(0.5, 1, 0.89, 1); }
+h2 { font-size: 40px; font-style: normal; font-weight: 700; line-height: 40px; font-family: 'PT Serif', sans-serif; font-weight: 700; color: #292929; margin-top: 0px; margin-bottom: 8px;transform: scale(0.94);animation: scale 5s forwards cubic-bezier(0.5, 1, 0.89, 1); }
 h3 { font-size: 110px; font-style: normal; font-weight: 100;line-height: 90px; font-family: 'Berllina', sans-serif; font-weight: normal; background-image: linear-gradient(to right,#384d85 0,#3e96d1 22%, 	#6c7ee2 45%,	#4f64db 50%,	#597bc5 55%,	#5c9ae2 78%,	#639ece 100%	);  color:transparent; -webkit-background-clip:text; margin-top: 0px; margin-bottom: 0px;text-shadow: 3px 3px 5px rgb(119 106 44 / 28%);transform: scale(0.94);animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);}
 h4 { font-size: 24px; font-style: normal; font-weight: 600; line-height: 28px; }
 h5 { font-size: 18px; font-style: normal; font-weight: 700; line-height: 30px; }
@@ -140,6 +140,7 @@ blockquote { display: block; background: #fff; position: relative; font-size: 18
 blockquote:before { content: "\201C"; font-family: Georgia, serif; font-size: 100px; font-weight: bold; color: #aaaaaa; position: absolute; left: 0px; top: -20px; }
 blockquote:after { content: ""; }
 blockquote cite { font-size: 14px; margin-top: 15px; display: block; font-weight: 600; }
+.text-CeR{font-family: 'PT Serif' ,sans-serif; color: #292929; font-size: 20px;}
 
 blockquote.default { background: #FFB540; padding: 30px; }
 blockquote.default:before { left: 20px; top: 60px; }
@@ -147,7 +148,7 @@ blockquote.default { padding-left: 100px; }
 blockquote.default cite { font-size: 16px; }
 
 .list-style-none li { list-style: none; }
-input[type=checkbox], input[type=radio] { margin: 4px 5px 0; line-height: 0px; position: relative; left: 45px; height: 60px; top: 0px;}
+input[type=checkbox], input[type=radio] { margin: 4px 5px 0; line-height: 0px; position: relative; left: 48px; height: 40px; top: -6px;}
 select { width: 100%; background: #FFB540; border: 0px; padding: 15px 18px 15px 30px; border-radius: 30px; }
 .select-hidden { display: none; visibility: hidden; padding-right: 10px; }
 .select { cursor: pointer; display: inline-block; position: relative; font-size: 14px; color: #e3e3e3; width: 100%; height: 50px; }
@@ -316,6 +317,7 @@ textarea { height: auto!important; }
 .form-control::-ms-input-placeholder { color: #aaaaaa; }
 .form-control::-webkit-input-placeholder { color: #aaaaaa; }
 .table-bordeblue>tbody>tr>td, .table-bordeblue>tbody>tr>th, .table-bordeblue>tfoot>tr>td, .table-bordeblue>tfoot>tr>th, .table-bordeblue>thead>tr>td, .table-bordeblue>thead>tr>th { border-color: #e0e0e0; padding: 12px 20px; }
+.text-box-name { padding: 8px; border-radius: 10px; border: solid 2px;}
 
 /***************************
 	      button
@@ -1119,7 +1121,7 @@ div#main { z-index: 1; position: relative; }
 .gray-form .form-control { box-shadow: none; border: 1px solid #35353569; background: #f5f6f7; width: 100%; font-size: 14px;}
 .gray-form .form-control:focus { background: #ffffff; box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
 .gray-form .form-group { margin-bottom: 20px;margin-left: -40px; }
-.gray-form .button { margin-right: 20px; }
+.gray-form .button { /*margin-right: 20px; */}
 textarea.form-control { resize: vertical; }
 
 /*Contact map*/
@@ -1191,12 +1193,12 @@ textarea.form-control { resize: vertical; }
 /***************************
 	     Register
 ***************************/
-.gray-form label { color: #ffffff; display: inline-block; margin-top: 8px;margin-bottom: 4px; text-transform: uppercase; font-size: 20px; padding: 10px; border-radius: 10px; background-color: #6bd36d; }
+.gray-form label { color: #ffffff; display: inline-block; margin-top: 8px;margin-bottom: 4px; text-transform: uppercase; font-size: 20px; padding: 10px; border-radius: 10px; background-color: #92a8d1; }
 .gray-form > label { display: block; }
 .gray-form .field-widget { position: relative; }
 .gray-form .field-widget .form-control { padding-left: 130px; }
 .gray-form .field-widget .tag { background: #e9e9e9; color: #aaaaaa; height: 50px; left: 0; line-height: 50px; margin: 0px; position: absolute; text-align: center; top: 0; width: 120px; -moz-border-radius-topleft: 90px; -webkit-border-top-left-radius: 90px; border-top-left-radius: 90px; -moz-border-radius-bottomleft: 90px; -webkit-border-bottom-left-radius: 90px; border-bottom-left-radius: 90px; }
-
+.yes-label {background-color: #00ff62!important;padding: 10px 16px!important;}
 /***************************
 	       TAB
 ***************************/
@@ -1757,7 +1759,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -0.2s;
 			animation-delay: -0.2s;
 	transform: translate3d(40vw, 23vh, 72px);
-	background: #EEE8AA;
+	background: #e6eeff;
   }
   
   @-webkit-keyframes particle-animation-2 {
@@ -1780,7 +1782,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -0.4s;
 			animation-delay: -0.4s;
 	transform: translate3d(76vw, 40vh, 71px);
-	background: #FFD700;
+	background: #92a8d1;
   }
   
   @-webkit-keyframes particle-animation-3 {
@@ -1803,7 +1805,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -0.6s;
 			animation-delay: -0.6s;
 	transform: translate3d(15vw, 63vh, 45px);
-	background: #FFA500;
+	background: #e6eeff;
   }
   
   @-webkit-keyframes particle-animation-4 {
@@ -1826,7 +1828,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -0.8s;
 			animation-delay: -0.8s;
 	transform: translate3d(82vw, 24vh, 16px);
-	background: #d9ac26;
+	background: #e6eeff;
   }
   
   @-webkit-keyframes particle-animation-5 {
@@ -1849,7 +1851,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -1s;
 			animation-delay: -1s;
 	transform: translate3d(10vw, 44vh, 54px);
-	background: #F0E68C;
+	background: #92a8d1;
   }
   
   @-webkit-keyframes particle-animation-6 {
@@ -1872,7 +1874,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -1.2s;
 			animation-delay: -1.2s;
 	transform: translate3d(45vw, 87vh, 29px);
-	background: #d9a926;
+	background: #d0e1ff;
   }
   
   @-webkit-keyframes particle-animation-7 {
@@ -1895,7 +1897,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -1.4s;
 			animation-delay: -1.4s;
 	transform: translate3d(68vw, 88vh, 81px);
-	background: #D2691E;
+	background: #92a8d1;
   }
   
   @-webkit-keyframes particle-animation-8 {
@@ -1918,7 +1920,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -1.6s;
 			animation-delay: -1.6s;
 	transform: translate3d(11vw, 10vh, 27px);
-	background: #d92685;
+	background: #e6eeff;
   }
   
   @-webkit-keyframes particle-animation-9 {
@@ -1941,7 +1943,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -1.8s;
 			animation-delay: -1.8s;
 	transform: translate3d(5vw, 8vh, 90px);
-	background: #EEE8AA;
+	background: #d0e1ff;
   }
   
   @-webkit-keyframes particle-animation-10 {
@@ -1964,7 +1966,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -2s;
 			animation-delay: -2s;
 	transform: translate3d(51vw, 83vh, 32px);
-	background: #F0E68C;
+	background: #92a8d1;
   }
   
   @-webkit-keyframes particle-animation-11 {
@@ -1987,7 +1989,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -2.2s;
 			animation-delay: -2.2s;
 	transform: translate3d(5vw, 9vh, 7px);
-	background: #FAFAD2;
+	background: #e6eeff;
   }
   
   @-webkit-keyframes particle-animation-12 {
@@ -2010,7 +2012,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -2.4s;
 			animation-delay: -2.4s;
 	transform: translate3d(13vw, 50vh, 86px);
-	background: #A0522D;
+	background: #d0e1ff;
   }
   
   @-webkit-keyframes particle-animation-13 {
@@ -2033,7 +2035,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -2.6s;
 			animation-delay: -2.6s;
 	transform: translate3d(75vw, 67vh, 15px);
-	background: #EEE8AA;
+	background: #d0e1ff;
   }
   
   @-webkit-keyframes particle-animation-14 {
@@ -2056,7 +2058,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -2.8s;
 			animation-delay: -2.8s;
 	transform: translate3d(87vw, 30vh, 3px);
-	background: #FFD700;
+	background: #92a8d1;
   }
   
   @-webkit-keyframes particle-animation-15 {
@@ -2079,7 +2081,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -3s;
 			animation-delay: -3s;
 	transform: translate3d(33vw, 90vh, 28px);
-	background: #d9b226;
+	background: #e6eeff;
   }
   
   @-webkit-keyframes particle-animation-16 {
@@ -2102,7 +2104,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -3.2s;
 			animation-delay: -3.2s;
 	transform: translate3d(67vw, 26vh, 62px);
-	background: #D2691E;
+	background: #d0e1ff;
   }
   
   @-webkit-keyframes particle-animation-17 {
@@ -2125,7 +2127,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -3.4s;
 			animation-delay: -3.4s;
 	transform: translate3d(51vw, 19vh, 71px);
-	background: #CD853F;
+	background: #92a8d1;
   }
   
   @-webkit-keyframes particle-animation-18 {
@@ -2148,7 +2150,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -3.6s;
 			animation-delay: -3.6s;
 	transform: translate3d(62vw, 11vh, 59px);
-	background: #d98826;
+	background: #92a8d1;
   }
   
   @-webkit-keyframes particle-animation-19 {
@@ -2171,7 +2173,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -3.8s;
 			animation-delay: -3.8s;
 	transform: translate3d(82vw, 62vh, 39px);
-	background: #FFA500;
+	background: #e6eeff;
   }
   
   @-webkit-keyframes particle-animation-20 {
@@ -2194,7 +2196,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -4s;
 			animation-delay: -4s;
 	transform: translate3d(33vw, 68vh, 26px);
-	background: #d96826;
+	background: #d0e1ff;
   }
   
   @-webkit-keyframes particle-animation-21 {
@@ -2217,7 +2219,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -4.2s;
 			animation-delay: -4.2s;
 	transform: translate3d(45vw, 38vh, 22px);
-	background: #F0E68C;
+	background: #92a8d1;
   }
   
   @-webkit-keyframes particle-animation-22 {
@@ -2240,7 +2242,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -4.4s;
 			animation-delay: -4.4s;
 	transform: translate3d(80vw, 72vh, 10px);
-	background: #EEE8AA;
+	background: #e6eeff;
   }
   
   @-webkit-keyframes particle-animation-23 {
@@ -2263,7 +2265,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -4.6s;
 			animation-delay: -4.6s;
 	transform: translate3d(9vw, 70vh, 82px);
-	background: #DAA520;
+	background: #92a8d1;
   }
   
   @-webkit-keyframes particle-animation-24 {
@@ -2286,7 +2288,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -4.8s;
 			animation-delay: -4.8s;
 	transform: translate3d(35vw, 39vh, 40px);
-	background: #FAFAD2;
+	background: #e6eeff;
   }
   
   @-webkit-keyframes particle-animation-25 {
@@ -2309,7 +2311,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -5s;
 			animation-delay: -5s;
 	transform: translate3d(9vw, 56vh, 82px);
-	background: #D2691E;
+	background: #92a8d1;
   }
   
   @-webkit-keyframes particle-animation-26 {
@@ -2332,7 +2334,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -5.2s;
 			animation-delay: -5.2s;
 	transform: translate3d(34vw, 62vh, 2px);
-	background: #FFD700;
+	background: #d0e1ff;
   }
   
   @-webkit-keyframes particle-animation-27 {
@@ -2355,7 +2357,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -5.4s;
 			animation-delay: -5.4s;
 	transform: translate3d(29vw, 22vh, 35px);
-	background: #FFA500;
+	background: #92a8d1;
   }
   
   @-webkit-keyframes particle-animation-28 {
@@ -2378,7 +2380,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -5.6s;
 			animation-delay: -5.6s;
 	transform: translate3d(18vw, 29vh, 60px);
-	background: #DAA520;
+	background: #e6eeff;
   }
   
   @-webkit-keyframes particle-animation-29 {
@@ -2401,7 +2403,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -5.8s;
 			animation-delay: -5.8s;
 	transform: translate3d(13vw, 26vh, 42px);
-	background: #F0E68C
+	background: #d0e1ff
   }
   
   @-webkit-keyframes particle-animation-30 {
@@ -2424,7 +2426,7 @@ textarea.form-control { resize: vertical; }
 	-webkit-animation-delay: -6s;
 			animation-delay: -6s;
 	transform: translate3d(6vw, 88vh, 39px);
-	background: #CD853F;
+	background: #92a8d1;
   }
   canvas {
 	border: 1px soild black;
