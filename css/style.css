@@ -97,7 +97,7 @@ Design and Developed by: soldafria.net
 body { font-family: 'Nunito', sans-serif;font-weight: normal; font-style: normal; font-size: 18px; line-height: 24px; color: #000000; background-image: url(img/background-01@2x.png),url(img/.png),url(img/.png),url(img/.png);background-position: center,center,top,center;background-repeat: no-repeat, no-repeat;background-size: 125vh;}
 a, .btn { -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; color: #353535; }
 a:focus { text-decoration: none !important; }
-a:focus, a:hover { color: #FFB540; text-decoration: none !important; }
+a:focus, a:hover { color: #82f782; text-decoration: none !important; }
 a, button, input { outline: medium none !important; color: #586d7f; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 h1 { font-size: 54px; font-style: normal; font-weight: 700; line-height: 54px; }
@@ -349,7 +349,7 @@ textarea { height: auto!important; }
     transition: 0.5s;}
 .button:hover { background: #fc4343; color: #ffffff; border-color: #fc4343; }
 .button.black { background: #353535; color: #ffffff; border: 2px solid #353535; }
-.button.black:hover, .button.black.active { background: #FFB540; color: #ffffff; border-color: #FFB540; }
+.button.black:hover, .button.black.active { background: #0d32d9; color: #ffffff; border-color: #FFB540; }
 .button.white { background: #fff; color: #2046f2; border: 2px solid #FFB540; }
 .button.white:hover { background: #353535; color: #ffffff; border: 2px solid #353535; }
 .button.border { background: transparent; border: 2px solid #e0e0e0; color: #aaaaaa; }
