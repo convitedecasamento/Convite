@@ -485,6 +485,7 @@ Design and Developed by: soldafria.net
 @media (max-width:479px) {
 	/* Page Title */
 	h2 {font-size: 15px;}
+	h7 {font-size: 15px;}
 	.text-date span {font-size: 40px;}
 	.intro-title .intro-content .intro-name{padding:50px 0px 50px 0px;}
 	.intro-title.dark .intro-content .intro-name{padding:50px 0px;}
@@ -569,4 +570,9 @@ Design and Developed by: soldafria.net
 	/*new update*/
 	.map-location { overflow: hidden; }
 	.fancy-team { overflow: hidden; }
+}
+@media (max-width:379px) {
+ .text-date span {font-size: 30px; }
+
+
 }
