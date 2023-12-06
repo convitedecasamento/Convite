@@ -303,7 +303,7 @@ Design and Developed by: soldafria.net
 
 	/*General*/
 	h1 { font-size: 38px; font-style: normal; line-height: normal; }
-	h2 { font-size: 28px; font-style: normal; /*line-height: normal;*/ }
+	h2 { font-size: 20px; font-style: normal; /*line-height: normal;*/ }
 	h3 { font-size: 110px; font-style: normal; line-height: 90px; }
 	h4 { font-size: 18px; font-style: normal; line-height: normal; }
 
@@ -484,6 +484,8 @@ Design and Developed by: soldafria.net
 /************************* 320px *************************/
 @media (max-width:479px) {
 	/* Page Title */
+	h2 {font-size: 15px;}
+	.text-date span {font-size: 40px;}
 	.intro-title .intro-content .intro-name{padding:50px 0px 50px 0px;}
 	.intro-title.dark .intro-content .intro-name{padding:50px 0px;}
 	.text-p-iso-1 {font-size: 15px !important;}
