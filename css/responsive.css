@@ -306,7 +306,7 @@ Design and Developed by: soldafria.net
 	h2 { font-size: 20px; font-style: normal; /*line-height: normal;*/ }
 	h3 { font-size: 110px; font-style: normal; line-height: 90px; }
 	h4 { font-size: 18px; font-style: normal; line-height: normal; }
-
+    .text-local {font-size: 17px;}
 	.row-eq-height { display: block; }
 	.valign, .valign > [class*="col-"] { display: block; }
 	.no-gutter > [class*='col-'] { padding-right: 15px; padding-left: 15px; }
