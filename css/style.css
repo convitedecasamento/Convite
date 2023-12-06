@@ -129,6 +129,35 @@ html{ scroll-behavior: smooth!important; }
 	text-align: center;
 }
 .nop {background-color: red!important;}
+
+ .ball {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background: rgba(255, 255, 255, 0.89);
+	border-radius: 50%;
+	box-shadow: 0 0 10px #6d7dc4;
+	animation: turn-around 3.5s infinite;
+  }
+  
+  @keyframes turn-around {
+	0%, 100% {
+	  top: calc(8px * -1.0);
+	  left: 100%;
+	  z-index: 9;
+	}
+	1%, 50% {
+	  z-index: -1;
+	}
+	50% {
+	  top: calc(60% + 1.0 * 8px);
+	  left: 0;
+	}
+	51% {
+	  z-index: 9;
+	}
+  }
+  
 /***************************
 	    typography
 ****************************/
@@ -336,7 +365,7 @@ textarea { height: auto!important; }
 .buttom-sub{font-size: 45px; font-weight: 100!important; padding: 25px 60px!important;}
 .button { background: #6986f4; padding: 10px 30px; color: #fff; border: 2px solid #00ff62; text-transform: uppercase; font-weight: 700; display: inline-block; border-radius: 30px; text-align: center; cursor: pointer; transition: 0.5s;}
 .button2 {    background: #6986f4;
-    padding: 6px 6px;
+    padding: 10px 7px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
